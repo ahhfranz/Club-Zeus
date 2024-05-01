@@ -1,0 +1,114 @@
+
+.contentBanner {
+  width:270px;
+  font-size:24px;
+  line-height:40px;
+  font-family:'Muli';
+  	 
+  color:#ecf0f1;
+  height:40px;
+  justify-content: center;
+  text-align:center;
+ 
+  
+  
+   
+  &:before {
+   
+    display:inline;
+	float:left;
+    left:0px;
+    line-height:40px;
+  }
+  &:after {
+   
+	top:-40px;
+	position:relative;
+	float:right;
+    line-height:40px;
+  }
+  &:after, &:before {
+    color:#16a085;
+    font-size:42px;
+    animation:2s linear 0s normal none infinite opacity;
+    -webkit-animation:2s ease-out 0s normal none infinite opacity;
+    -moz-animation:2s ease-out 0s normal none infinite opacity;
+    -o-animation:2s ease-out 0s normal none infinite opacity;
+  }
+}
+
+.visible {
+ 
+  font-weight:600;
+  letter-spacing:-0.5px;
+  overflow:hidden;
+  height:40px;   
+}
+
+.contentBanner p {
+  display:inline;
+  float:left;
+  margin:0;
+  padding-left:10px;
+
+}
+
+ul {
+  margin-top:0;
+  padding-left:30px;
+  text-align:left;
+  list-style:none;
+   margin-left:20px;
+  animation:6s linear 0s normal none infinite change;
+  -webkit-animation:6s linear 0s normal none infinite change;
+  -moz-animation:6s linear 0s normal none infinite change;
+  -o-animation:6s linear 0s normal none infinite change;
+}
+
+ul li {
+  line-height:40px;
+  margin:0;
+  margin-left:30px;
+  padding-left:20px;
+}
+
+.casino-logo-round {
+  display: block; /* Hace que la imagen se pueda centrar con margin auto */
+  margin: 100px auto; /* Añade espacio arriba/abajo y centra horizontalmente */
+  height: 400px; /* Define la altura para mantener la imagen como un cuadrado */
+  object-fit: cover; /* Asegura que la imagen cubra el espacio sin distorsionarse */
+}
+
+@-webkit-keyframes opacity {
+  0%   {opacity:0;}
+  50%  {opacity:1;}
+  100% {opacity:0;}
+}
+@keyframes opacity {
+  0%   {opacity:0;}
+  50%  {opacity:1;}
+  100% {opacity:0;}
+}
+
+@-webkit-keyframes change {
+  0%   {margin-top:0;}
+  15%  {margin-top:0;}
+  25%  {margin-top:-40px;}
+  40%  {margin-top:-40px;}
+  50%  {margin-top:-80px;}
+  65%  {margin-top:-80px;}
+  75%  {margin-top:-40px;}
+  85%  {margin-top:-40px;}
+  100% {margin-top:0;}
+}
+@keyframes change {
+  0%   {margin-top:0;}
+  15%  {margin-top:0;}
+  25%  {margin-top:-40px;}
+  40%  {margin-top:-40px;}
+  50%  {margin-top:-80px;}
+  65%  {margin-top:-80px;}
+  75%  {margin-top:-40px;}
+  85%  {margin-top:-40px;}
+  100% {margin-top:0;}
+}
