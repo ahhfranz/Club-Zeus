@@ -6,9 +6,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="img/sch3/logo.png" />    <link rel="icon" type="image/png" href="img/sch3/logo.png"> 	<title>🍀​ Club Zeus 🎰​ - WhatsApp</title>
+    <meta property="og:image" content="img/sch3/logo.png" />    <link rel="icon" type="image/png" href="img/sch3/logo.png"> 	<title>🍀​ Club Zeus</title>
 		<link rel="stylesheet" href="../maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/banner.css">
+		<link rel="stylesheet" href="css/style.css">
 	
 <!-- Meta Pixel Code -->
 <script>
@@ -100,14 +100,6 @@ src="https://www.facebook.com/tr?id=805313011553138&ev=PageView&noscript=1"
 				padding: 20px 0px;
 			 justify-content: center;
 			 text-align:center;
-		 }
-		 .contentLeyenda {	
-
-			font-family: 'Roboto', sans-serif;		 
-			padding:20px 10px;
-			font-size:20px;
-			font-weight:400;
-			letter-spacing:-0.5px;
 		 }
 
 		 
@@ -242,100 +234,9 @@ src="https://www.facebook.com/tr?id=805313011553138&ev=PageView&noscript=1"
 				text-align:center;
 		}
 
-        /* Estilos para pantallas pequeñas */
-        @media screen and (max-width: 600px) {
-            .container {
-             background-size: auto;
-            }
-        }
-		
-		
-		.imgboton {
-			animation: zoom 2s infinite;
-		}
-		
-	.btnwsp {
-		background-color: transparent;
-		border:0px;
-		box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
-		cursor: pointer;
-	}
-
-	.whatsapp-icon {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: #fff;
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      text-align: center;
-      line-height: 70px;
-      font-size: 36px;
-      z-index: 9999;
-      cursor: pointer;
-	}
- 
-	.whatsapp-icon:hover { 
-		color: #25D366;
-		background-color: #fff;
-		border:0.5px solid #25D366;
-	}
- 
-
-	@keyframes zoom {
-			0% {
-				transform: scale(1);
-			}
-			50% {
-				transform: scale(1.1);
-			}
-			100% {
-				transform: scale(1);
-		}
-	}	
-		
-	.c-loader {
-	text-align:center;
-	margin:auto;
-		animation: is-rotating 1s infinite;
-		border: 6px solid #e5e5e5;
-		border-radius: 50%;
-		border-top-color: #51d4db;
-		height: 40px;
-		width: 40px;
-	}
-
-	@keyframes is-rotating {
-		to {
-			transform: rotate(1turn);
-		}
-	}
 	
-	.leyenda p {
-		position: relative;
-		font-family: sans-serif;
-		text-transform: uppercase;
-		font-size: 1em;
-		letter-spacing: 0.5px;
-		overflow: hidden;
-		background: linear-gradient(90deg, #efefef, #fff, #efefef);
-		background-repeat: no-repeat;
-		background-size: 80%;
-		animation: animate 3s linear infinite;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: rgba(255, 255, 255, 0);
-	}
 
-	@keyframes animate {
-		0% {
-			background-position: -500%;
-		}
-		100% {
-			background-position: 500%;
-		}
-	}
+
     </style>
 	
 	
@@ -374,58 +275,35 @@ src="https://www.facebook.com/tr?id=805313011553138&ev=PageView&noscript=1"
 								<li>Blackjack</li>
 							</ul>
 					</div>
+					 <div class="textito">
+                    <label><b>🍀 BONUS DEL 100% 🍀</b></strong></label>
+                </div>
 				</div></center>
 			
 			</div>
 
-			<div id = "contentBoton" class="contentBoton">	
-				<button  rel='nofollow noreferrer' role='link' id='botónEnviarSolicitud' class=btnwsp><img src='img/sch3/boton.png' class=imgboton width='80%' height='80%' border=0></button>			</div>
-			<div id=loadWsp class=loadWsp>
-					<div id=conecting class=conecting>
-						<div id=conectingTxt class=conectingTxt>
-							Conectando con WhatsApp ... 
-						</div>
-						<div id=conectingIcon class=conectingIcon>
-							<div class="c-loader"></div>
-						</div>
-					</div>
-					<div id=info class=info>
-						Si no se abre el enlace. Escribinos al <b>1162089720</b> para crear tu <b>usuario</b> y regalarte un Bono de Bienvenida!
-					</div>	
 
-				</div>
-				<script type="text/javascript">
-						document.getElementById('botónEnviarSolicitud').addEventListener('click', function() {
-			
-							var wsp='1162089720';		
-							const shareUrl = '';
-							const shareText = 'Hola! 🍀 ¡Quiero mi usuario y reclamar el bonus de bienvenida! 🥰🔥';
-							const whatsappUrl = `1162089720&text=${encodeURIComponent(shareUrl)}%0A%0A%C2%A1${encodeURIComponent(shareText)}&type=phone_number&app_absent=0`; 							window.location.href = 'https://api.whatsapp.com/send?phone=549' + whatsappUrl;
-									
-									
-							conversion(wsp);
-							fbq('track', 'Purchase', {
-								value: 1,
-								currency: 'USD',
-							});
-					
-							fbq('track', 'Contact');
+       <!-- Menu Container 1 Codes Start -->
+    <section id="main_section_container_1" class="flex_column_center">
+        <div class="container">
+            <form id="wppform" action="#">
+                <div class="form-entry">
+                    <label for="user">Escribinos tu nombre<span>*</span>: </label><br>
+                    <input type="text" name="user" id="user" placeholder="Nombre" required>
+                </div>
+               
+                <div class="button">
+                    <button type="submit" class="main_button_item">CREA TU USUARIO ➤</button>
+                </div>
 
-			
-						
-					}, false);
-					
-				</script>
-			<div class="contentLeyenda">
-				<p>HACE CLIC EN EL BOTON PARA</P><P>CREAR TU USUARIO</p>
+                <h1 class="header_disclaimer">* Carga mínima: $1.000, Atención las 24hs *</h1>
+            </form>
+        </div>
+    </section>
+      
+      </section>
 
-			</div>
-				<div class=bono>
-					<div id=leyenda class=leyenda>
-										</div>
-					<p>CARGA MÍNIMA <b>$1,000 ARS</b></p>	
-					<p><br></p>
-				</div>
+      <!-- Menu Container 1 Codes End -->
 
 			
         </div>
@@ -433,14 +311,14 @@ src="https://www.facebook.com/tr?id=805313011553138&ev=PageView&noscript=1"
 	<div class="containerLista">	
 	 
 			<div class="containerItem">
-				 <img src='img/sch3/ic1.png'  width='70px' height='70px'>	
-				<p>Aceptamos transferencias de <br>cualquier banco, CBU o CVU.</p>
+				 <img src='img/sch3/ic2.png'  width='70px' height='70px'>	
+				<p>¡Cargamos fichas las 24 horas,<br>todos los días!</p>
 			</div>
 	</div>
 	<div class="containerLista">	
 			<div class="containerItem">
-				 <img src='img/sch3/ic2.png'  width='70px' height='70px'>	
-				<p>¡Cargamos fichas las 24 horas,<br>todos los días!</p>
+				 <img src='img/sch3/ic1.png'  width='70px' height='70px'>	
+				<p>Aceptamos transferencias de <br>cualquier Banco/MercadoPago.</p>
 			</div>
 	 </div>
 	
@@ -448,10 +326,13 @@ src="https://www.facebook.com/tr?id=805313011553138&ev=PageView&noscript=1"
 	 <div class="containerAviso">	
 		<p>Jugar compulsivamente es perjudicial para la salud. <br> </p>
 		<p>Prohibido el juego de azar a menores de 18 años.</p>
+		<p>2024 Todos los derechos reservados.<br>Sitio Operado bajo Licencia de Curazao - Antillas Holandesas.</p>
 	 </div>	
-	
 </body>
 
 
-<!-- Mirrored from redluxor.com/?tr=surf-9&utm_medium=paid&utm_source=fb&utm_id=120207030177760144&utm_content=120207030177920144&utm_term=120207030177740144&utm_campaign=120207030177760144 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 May 2024 02:13:06 GMT -->
+<script type="text/javascript"> let config = {"contacts":[{"name":"Club Zeus","title":"Soporte","phone":"+54 9 11 6208-9720","image":""}],"type":"ww-extended","call":"","brand":"Club Zeus","subtitle":"Linea de soporte directo - 24 horas","welcome":"","size":"ww-normal","position":"ww-right","text":"¡Hola! ¡Quiero mi usuario y reclamar el bonus!","teamSize":"1","email":"ahhtryhard@gmail.com","toggle":false}; let s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://cdn.jsdelivr.net/gh/Bayanovart23/scriptForWidget@main/index.js'; let x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); s.onload = function () { tmWidgetInit(config) }; </script>
+
+    <script src="js/main.js"></script>
+
 </html>
